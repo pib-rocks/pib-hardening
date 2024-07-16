@@ -9,8 +9,8 @@ The hardening is based on the Center for Internet Security (CIS) Level 1 standar
 
 ## Requirements
 - All prerequisites required by pib.
-- PowerShell must be installed on the system. For more information and installation steps, see:
-  [Installing PowerShell on Linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.4)
+- PowerShell must be installed on the system. For more information and installation steps, 
+see: [Installing PowerShell on Linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.4)
 
 ## Installation
 Steps to install and run the hardening script:
@@ -26,12 +26,7 @@ Steps to install and run the hardening script:
 3. Ensure that the script ` pib.hardening.ps1` is in the same directory as the other folders.
     ```
     ├── 1.1.1.1
-    ├── 1.1.2.2
-    ├── 1.1.2.3
-    ├── 1.1.2.4
-    ├── 1.1.3.2
-    ├── 1.1.3.3
-    ├── 5.2.12
+    ├── [...]
     └── pib.hardening.ps1
     ```
 4. Open an administrative PowerShell and run the script:
@@ -44,8 +39,8 @@ Steps to install and run the hardening script:
 The script is specifically designed for hardening pib systems and should only be used for this purpose.
 
 ## Contributors
-- Dr. Sven Schrader from FB Pro GmbH
-- Tim Spreier from FB Pro GmbH
+- Dr. Sven Schrader (FB Pro GmbH)
+- Tim Spreier (FB Pro GmbH)
 
 ## License
 This project is open source and license-free. However, please note that the script should only be used for pib hardening as it is specifically tailored for that purpose.
